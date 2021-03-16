@@ -13,10 +13,10 @@ int main() {
         std::cout << "Error loading player.png" << std::endl;
     }
     player.setTexture(tx_player);
-    player.setTextureRect(sf::IntRect(0, 0, 265 / 2, 558 / 4));
+    player.setTextureRect(sf::IntRect(0, 0, tx_player.getSize().x/2, tx_player.getSize().y / 4));
     player.setPosition(sf::Vector2f(400.f, 300.f));
 
-    player.setOrigin(265 / 4, 558 / 8);
+    player.setOrigin(player.getTextureRect().width/2, player.getTextureRect().height/2);
 
     while (window.isOpen()) {
         sf::Event event;
