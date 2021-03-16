@@ -1,5 +1,5 @@
 # [Nombre Proyecto]
-[![Build](https://github.com/UCC-ArquitecturaSoftwareI/2021-Programadores_Sacole/actions/workflows/LintAndBuild.yml/badge.svg)](https://github.com/UCC-ArquitecturaSoftwareI/2021-Programadores_Sacole/actions/workflows/LintAndBuild.yml)
+[![Build](https://github.com/UCC-ArquitecturaSoftwareI/2021-rmarku/actions/workflows/LintAndBuild.yml/badge.svg)](https://github.com/UCC-ArquitecturaSoftwareI/2021-rmarku/actions/workflows/LintAndBuild.yml)
 
 Proyecto de la materia Arquitectura de Software I
 
