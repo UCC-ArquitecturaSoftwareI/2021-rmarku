@@ -50,7 +50,19 @@ include_directories(
         ${TMXLITE_INCLUDE_DIR}
         ${SFML_INCLUDE_DIR})
 
-add_executable(${PROJECT_NAME} main.cpp)
+add_executable(${PROJECT_NAME}
+        main.cpp
+        classes/Player.cpp
+        classes/Screen.cpp
+        classes/State.cpp
+        classes/StateGame.cpp
+        classes/StateLogo.cpp
+        classes/StateMenu.cpp
+        classes/Bala.cpp
+        classes/BalaStrategy.cpp
+        classes/BalaDerecha.cpp
+        classes/BalaCurva.cpp
+        )
 
 target_link_libraries(${PROJECT_NAME}
         PRIVATE
